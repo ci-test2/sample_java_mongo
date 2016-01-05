@@ -1,14 +1,15 @@
 language: java
-
+build_image: drydock/u14rubpls:tip
 jdk:
    - oraclejdk7
    - openjdk6
    - openjdk7
+   - oraclejdk8
 services:
    - mongodb
 script:
    - ant clean
    - ant coverage
 notifications:
-  email: false
-
+  email: 
+      test_ci2@yahoo.in
