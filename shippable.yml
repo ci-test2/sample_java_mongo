@@ -12,6 +12,6 @@ script:
    - ant clean
    - ant coverage
    
-#notifications:
- # email: false
+notifications:
+  email: false
 
