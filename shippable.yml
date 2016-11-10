@@ -9,7 +9,7 @@ services:
    - mongodb
    
 script:
-   - ant clean
+  # - ant clean
    - ant coverage
    
 notifications:
