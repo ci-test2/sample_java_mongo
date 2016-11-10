@@ -99,4 +99,4 @@ must be on your classpath.
 
 	<target name="coverage" depends="compile,instrument,test,coverage-report" description="Compile, instrument the classes, run the tests and generate JUnit and coverage reports."/>
 
-</project>
+</project>   
