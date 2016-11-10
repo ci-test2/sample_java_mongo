@@ -9,9 +9,10 @@ services:
    - mongodb
    
 script:
-   - ant clean
-   - ant coverage
+   #- ant clean
+   #- ant coverage
+   - echo "Hello"
    
-#notifications:
- # email: false
+notifications:
+  email: false
 
